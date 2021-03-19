@@ -1,0 +1,35 @@
+@media screen and (min-width: 756px) {
+  .wrapper {
+    .circles .c1,
+    .circles .c2 {
+      width: 800px;
+      height: auto;
+      overflow: hidden;
+    }
+    .circles .c1 {
+      top: -300px;
+      left: -175px;
+    }
+    .circles .c2 {
+      bottom: -300px;
+      right: -175px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    .circles .c1,
+    .circles .c2 {
+      width: 1000px;
+    }
+    .circles .c1 {
+      top: -450px;
+      left: -100px;
+    }
+    .circles .c2 {
+      bottom: -450px;
+      right: -100px;
+    }
+  }
+}
